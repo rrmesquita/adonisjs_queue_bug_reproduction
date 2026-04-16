@@ -5,9 +5,7 @@ export default defineConfig({
   default: env.get('QUEUE_DRIVER', 'database'),
 
   adapters: {
-    database: drivers.database({
-      connectionName: 'primary',
-    }),
+    database: drivers.database(),
     sync: drivers.sync(),
   },
 

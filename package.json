@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@adonisjs/assembler": "^8.4.0",
-    "@adonisjs/eslint-config": "^3.0.0",
-    "@adonisjs/prettier-config": "^1.4.5",
+    "@adonisjs/eslint-config": "^3.1.0",
+    "@adonisjs/prettier-config": "^1.5.0",
     "@adonisjs/tsconfig": "^2.0.0",
     "@japa/assert": "^4.2.0",
     "@japa/plugin-adonisjs": "^5.2.0",
@@ -57,10 +57,10 @@
   },
   "dependencies": {
     "@adonisjs/auth": "^10.1.0",
-    "@adonisjs/core": "^7.3.1",
+    "@adonisjs/core": "^7.3.3",
     "@adonisjs/cors": "^3.0.0",
     "@adonisjs/lucid": "^22.4.2",
-    "@adonisjs/queue": "^0.6.0",
+    "@adonisjs/queue": "^0.6.1",
     "@adonisjs/session": "^8.1.0",
     "@adonisjs/shield": "^9.0.0",
     "@japa/api-client": "^3.2.1",

@@ -15,3 +15,7 @@
 |     .run()
 |
 */
+
+import CheckUserJob from '../app/jobs/check_user_job.js'
+
+await CheckUserJob.schedule({}).every('1m')
